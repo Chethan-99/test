@@ -3,7 +3,7 @@ body{
 }
 .name{
     text-align: center;
-    color: #1c5288;
+    color: hsl(210, 92%, 23%);
     margin: 2vw;
     font-family: Roboto;
     font-weight: 800;
