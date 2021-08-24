@@ -13,16 +13,16 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
 </head>
 <body>
+    <h1 class="name">Kanban  Board</h1>
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-4 my-3">
-                <div class="todo-main card bg-light">
+                <div class="todo-main t1 card bg-light">
                     <div class="card-title">
-                        <h2 class="todo bg-success text-white">TODO</h2>
+                        <h2 class="todo text-white">TODO</h2>
                         <ul class="sortable connectedSortable">
-                            <li class="card ">Activity A1</li>
-                            <li class="card">Activity A2</li>
-                            <li class="card">Activity A3</li>
+                            
+                         
                           </ul>
                     </div>
                     <div class="card-footer">
@@ -36,7 +36,7 @@
             <div class="col-sm-4 my-3">
                 <div class="todo-main card bg-light">
                     <div class="card-title">
-                        <h2 class="todo bg-success text-white">PROGRESS</h2>
+                        <h2 class="todo text-white">PROGRESS</h2>
                         <ul class="sortable connectedSortable">
                             <li class="card ">Activity B1</li>
                             <li class="card">Activity B2</li>
@@ -47,7 +47,7 @@
             <div class="col-sm-4 my-3">
                 <div class="todo-main card bg-light">
                     <div class="card-title">
-                        <h2 class="todo bg-success text-white">DONE</h2>
+                        <h2 class="todo text-white">DONE</h2>
                         <ul class="sortable connectedSortable">
         
                           </ul>
@@ -67,7 +67,7 @@
           }).disableSelection();
           $('.addButton').click(function() {
               var txtNewItem = $('.input').val();
-              $(this).closest('div.container-fluid').find('ul').append('<li class="card">'+txtNewItem+'</li>');
+              $(this).closest('div.t1').find('ul').append('<li class="card">'+txtNewItem+'</li>');
           });    
         });
         </script>      

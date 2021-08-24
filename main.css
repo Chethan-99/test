@@ -1,22 +1,33 @@
 body{
-    background: fixed;
-    
+    background: #f9fdfb;
+}
+.name{
+    text-align: center;
+    color: #1c5288;
+    margin: 2vw;
+    font-family: Roboto;
+    font-weight: 800;
 }
 .container-fluid{
     margin: 8vh;
-    
-    background-color: chartreuse;
+    margin-left: 0;
+    background: linear-gradient(to right, rgba(190, 182, 235, 0.9), rgba(9, 62, 236, 0.3));
 }
 h2{
     display: block;
     text-align: center;
 }
 .todo-main{
+    margin: 2vh;
     padding: 0 1vw;
     padding-bottom: 8vh;
 }
 .todo{
+    margin: 2vw;
     margin-top: -4vh;
+    padding: 1vh;
+    font-size: 1.5rem;
+    background-color: #242a30;
 } 
 .sortable {
      list-style-type: none; 
@@ -27,7 +38,7 @@ h2{
 .card{
     padding: 2vh;
     margin-bottom:2vh;
-    background-color: chocolate;
+    background-color: rgb(206, 189, 235);
     font-size: 1.25rem;
 }
 
@@ -59,7 +70,7 @@ h2{
     margin: .25rem;
     margin-left: .5rem;
     border: none;
-    color: rgb(158, 224, 114);
+    color: rgb(156, 149, 149);
     cursor: pointer;
     background-color: rgb(253, 250, 250);
 }
